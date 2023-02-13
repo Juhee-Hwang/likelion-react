@@ -87,3 +87,9 @@ function update(newState) {
 }
 
 globalThis.update = update;
+
+
+// 🌈 정리
+// 리액트 => 기존 뷰를 날려버리고 처음부터 새로 랜더링하는 방식 (선언형 프로그래밍)
+// DOM조작 조금씩 안하구 createElement쓰는 이유가 그렇다
+// ⭐️리액트의 API를 들어가기 전 vanillaJS로 코드가 어떻게 구성이 되는지를 설명한겁니다⭐️
